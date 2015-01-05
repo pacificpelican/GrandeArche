@@ -1,0 +1,195 @@
+/*  
+Theme Name: Grande Arche
+Theme URI: http://djmcloud.danieljmckeown.com/grande-arche
+Description: A child theme of GrandFork II
+template: GrandFork
+Author: Daniel J. McKeown
+Author URI: http://djmcloud.com
+Version: 0.3.3
+Tags: GPLv2+, pacificpelican.us, minimal, child theme
+.
+based on (and requires the) GrandFork theme (http://djmcloud.danieljmckeown.com/grandfork) for WordPress.
+copyright March/June 2012 Daniel J. McKeown.
+This work is released under GNU General Public License (GNU GPL), version 2 or later:
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+This theme uses Junction Font: 
+https://www.theleagueofmoveabletype.com/junction
+Junction Font is (c) 2009 the League of Movable Type and used under the Open Font License:
+http://theleagueof.github.io/licenses/ofl-faq.html
+
+  licensing info:
+    		This program is free software: you can redistribute it and/or modify
+    		it under the terms of the GNU General Public License as published by
+    		the Free Software Foundation, either version 2 of the License, or
+    		(at your option and if possible) any later version.
+
+    		This program is distributed in the hope that it will be useful,
+    		but WITHOUT ANY WARRANTY; without even the implied warranty of
+    		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    		GNU General Public License for more details.
+
+.
+*/
+
+@import url("../GrandFork/style.css");
+
+@font-face {
+  font-family: Junction;
+  src: url(fonts/junction/Junction.otf);
+}
+
+.titleAreas {
+				font-family:Junction, 'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+				font-size:34px;
+				font-style:bold;
+				text-decoration:none;
+}
+
+.widget-area {
+				font-family:'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+				font-size:12px;
+				font-style:normal;
+				text-decoration:none;
+				color:gray;
+}
+
+.linksList {
+				font-family:Junction, 'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+				font-size:11px;
+				font-style:normal;
+				text-decoration:none;
+				color:gray;
+}
+
+.lowerArea	{
+							font-family:Junction, 'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+							font-size:12px;
+							font-style:bold;
+	}
+	
+p 			{
+							font-family:Junction, 'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+							font-size:14px;
+			}
+
+.entry-utility
+			{
+			font-family:Junction, 'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+							font-size:12px;
+							color:gray;
+				}
+				
+.entry-meta
+			{
+			font-family:'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+							font-size:12px;
+							color:gray;
+				}
+
+#blog-description	{
+				font-family:'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+				font-size:13px;
+				font-style:bold;
+					}
+					
+.entry-title		{
+				font-family:'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+							font-size:20px;
+							font-style:bold;
+							text-decoration:none;
+				}
+
+#container li {
+				font-family:'Actor', serif, "Futura", "Helvetica", sans-serif, Georgia;
+							font-size:14px;
+}
+
+#content A:link {
+			text-decoration: underline;
+		}
+
+#wrapper {
+
+opacity:1.0;
+
+}
+
+
+
+#linksListArea {
+width: 575px ;
+  margin-left: 35px;
+  margin-right: auto ;
+			}
+		
+#linksListArea li { 
+  list-style: none;
+}	
+			
+#secondary {
+	position: absolute;
+              left: 640px;
+              top: 80px;
+              width: 340px;
+              height:auto;
+}
+
+#tertiary {
+	position: absolute;
+              left: 1000px;
+              top: 80px;
+              width: 340px;
+            
+}
+
+#container {
+  width: 575px ;
+  margin-left: 33px ;
+  margin-right: auto ;
+   background-color:white;
+  
+}
+
+#k5 {
+  width: 600px ;
+  margin-left: 39px ;
+  margin-right: auto ;
+   background-color:#e6e6e6; 
+   border: 10px;
+   padding: 12px;
+}
+
+.k6	{
+			font-family:"Futura", "Helvetica", sans-serif, Georgia;
+							font-size:12px;
+							color:black;
+				}
+
+#branding {
+  width: 760px ;
+  margin-left: 39px ;
+  margin-right: auto ;
+}
+
+#footer {
+  width: 640px ;
+  margin-left: 42px;
+  margin-right: auto ;
+}
+
+#primary {
+  width: 640px ;
+  margin-left: 84px;
+  margin-right: auto ;
+}
+
+h1 {
+margin-bottom:2px;
+
+}
+
+h2 {
+margin-bottom:3px;
+
+}
