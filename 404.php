@@ -8,8 +8,10 @@
                 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <?php /* an h2 title */ ?>
                     <h1 class="entry-title">404 NOT FOUND</h1>
- 
-<img src="http://2012.danieljmckeown.com/library/images/BelleDJMCLOUD2012byDanielJMcKeown.jpg" width="555" alt="NOT FOUND GREEN BLUE BIRD DRAGON" /> 
+
+
+<img src='<?php echo get_stylesheet_directory_uri(); ?>/img/BelleDJMCLOUD2012byDanielJMcKeown.jpg' width='555' alt='' /> 
+
 
 <?php /* Close up the post div and then end the loop with endwhile */ ?>      
  
